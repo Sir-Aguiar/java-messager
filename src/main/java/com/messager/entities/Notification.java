@@ -18,4 +18,10 @@ public class Notification {
   public void markAsReaded() {
     this.isReaded = true;
   }
+
+    public String getContent() {
+        return content;
+    }
+
+  
 }

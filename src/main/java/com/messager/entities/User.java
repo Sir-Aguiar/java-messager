@@ -13,8 +13,8 @@ public class User {
 
   public User(UserDTO user) {
     this.userId = UUID.randomUUID();
-    this.username = user.username();
-    this.name = user.name();
+    this.username = user.username;
+    this.name = user.name;
   }
 
   public UUID getUserId() {
